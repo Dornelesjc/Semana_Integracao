@@ -1,0 +1,20 @@
+# Dados reais e arquivos locais - nao publicar
+Clube_TCU_Ativos_v021/teste_local/
+Clube_TCU_Ativos_v021/dados_locais/
+Clube_TCU_Ativos_v021/dados_reais/
+
+# TXT brutos copiados das atividades
+*.txt
+
+# Arquivos gerados localmente
+atividades_tratadas*.csv
+checkins*.csv
+
+# Segredos
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Arquivos temporarios do Python
+__pycache__/
+*.pyc
